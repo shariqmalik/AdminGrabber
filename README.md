@@ -21,7 +21,7 @@ user@box:~$python adgrab.py
 | | | | (_| | | | | | | | | | | |_\ \ | | (_| | |_) | |_) |  __/ |
 \_| |_/\__,_|_| |_| |_|_|_| |_|\____/_|  \__,_|_.__/|_.__/ \___|_|
 
-        Author: Shariq Malik
+        Author: <a href="http://facebook.com/shariqmalik07">Shariq Malik</a>
 
 Enter URL: http://example.com
 </code></pre>
@@ -35,7 +35,7 @@ user@box:~$python adgrab.py
 | | | | (_| | | | | | | | | | | |_\ \ | | (_| | |_) | |_) |  __/ |
 \_| |_/\__,_|_| |_| |_|_|_| |_|\____/_|  \__,_|_.__/|_.__/ \___|_|
 
-        Author: Shariq Malik
+        Author: <a href="http://facebook.com/shariqmalik07">Shariq Malik</a>
 
 Enter URL: http://example.com
 ---------------------------------------------------------------------
