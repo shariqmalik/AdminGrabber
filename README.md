@@ -58,5 +58,14 @@ Enter Wordlist: wordlist.txt
 ---------------------------------------
 [OK] : http://example.com/admin/
 </code></pre>
+**Remove Duplicates from wordlist**
+<pre><code>
+Enter Wordlist: hex.txt
+---------------------------------------------------------------------
+[Loading] : Loading Panels..
+[Loaded]  : 7 Panels Loaded..
+[Using]   : 5/7 Panels being used (2 duplicates)..
+---------------------------------------------------------------------
+</code></pre>
 **Note**
 <p>This is just for educational purposes I'll not responsible of any harm!<p>
