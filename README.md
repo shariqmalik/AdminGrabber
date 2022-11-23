@@ -1,18 +1,26 @@
 # AdminGrabber
-<p>AdminGrabber is a simple admin panel finder script which find admin panels of any site using a wordlist</p>
+AdminGrabber is a simple admin panel finder script which find admin panels of any site using a wordlist
 
-**Requirements**<br/>
-	<li>Python27</li><br/>
-**Tested on**<br/>
-	<li> Windows 7/8/10 </li>
-	<li> Ubuntu 14.04.4 LTS </li><br/>
+**Requirements**
+- Python27
+
+**Tested on**
+- Windows 7/8/10 
+- Ubuntu 14.04.4 LTS
+
 **Installation**
-<p>You can download the latest version of AdminGrabber by cloning the GitHub repository:</p>
-<pre><code>git clone https://github.com/shariqmalik/AdminGrabber.git</code></pre>
-**Useage**<br/>
-<pre><code>$python adgrab.py</code></pre>
-**Output:**<br/>
-<pre><code>
+
+You can download the latest version of AdminGrabber by cloning the GitHub repository:
+
+`git clone https://github.com/shariqmalik/AdminGrabber.git`
+
+**Useage**
+
+`$ python adgrab.py`
+
+**Output:**
+
+```bash
 user@box:~$python adgrab.py
   ___      _           _       _____           _     _
  / _ \    | |         (_)     |  __ \         | |   | |
@@ -21,12 +29,14 @@ user@box:~$python adgrab.py
 | | | | (_| | | | | | | | | | | |_\ \ | | (_| | |_) | |_) |  __/ |
 \_| |_/\__,_|_| |_| |_|_|_| |_|\____/_|  \__,_|_.__/|_.__/ \___|_|
 
-        Author: <a href="http://facebook.com/shariqmalik07">Shariq Malik</a>
+        Author: Shariq Malik
 
 Enter URL: http://example.com
-</code></pre>
+```
+
 **Load wordlist.txt**
-<pre><code>
+
+```bash
 user@box:~$python adgrab.py
   ___      _           _       _____           _     _
  / _ \    | |         (_)     |  __ \         | |   | |
@@ -35,21 +45,19 @@ user@box:~$python adgrab.py
 | | | | (_| | | | | | | | | | | |_\ \ | | (_| | |_) | |_) |  __/ |
 \_| |_/\__,_|_| |_| |_|_|_| |_|\____/_|  \__,_|_.__/|_.__/ \___|_|
 
-        Author: <a href="http://facebook.com/shariqmalik07">Shariq Malik</a>
+        Author: Shariq Malik
 
 Enter URL: http://example.com
 ---------------------------------------------------------------------
 [Connecting] : http://example.com...
 [Connected]  : http://example.com is connected
 ---------------------------------------------------------------------
-Enter Wordlist: hex.txt
-</code></pre>
-**Script will load list and show results**
-<pre><code>
+
 Enter Wordlist: wordlist.txt
 ---------------------------------------------------------------------
 [Loading] : Loading Panels..
-[Loaded]  : 4 Panels Loaded..
+[Loaded]  : 7 Panels Loaded..
+[Using]   : 5/7 Panels being used (2 duplicates)..
 ---------------------------------------------------------------------
 
 [Checking] : Checking Admin Panels
@@ -57,15 +65,8 @@ Enter Wordlist: wordlist.txt
 | Resp  :       Results               |
 ---------------------------------------
 [OK] : http://example.com/admin/
-</code></pre>
-**Remove Duplicates from wordlist**
-<pre><code>
-Enter Wordlist: hex.txt
----------------------------------------------------------------------
-[Loading] : Loading Panels..
-[Loaded]  : 7 Panels Loaded..
-[Using]   : 5/7 Panels being used (2 duplicates)..
----------------------------------------------------------------------
-</code></pre>
+
+```
+
 **Note**
-<p>This is just for educational purposes I'll not responsible of any harm!<p>
+This is just for educational purposes I'll not responsible of any harm!
